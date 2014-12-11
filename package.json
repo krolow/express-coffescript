@@ -1,0 +1,22 @@
+{
+    "name": "project-name"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+        "express": "4.x"
+      , "body-parser": "*"
+      , "method-override": "*"
+      , "morgan": "*"
+      , "coffee-script": "1.8.0"
+      , "errorhandler": "*"
+      , "ejs": "*"
+      , "xml2js": "*"
+    }
+  , "scripts": {
+      "start": "node index.js"
+    }
+  , "engines": {
+        "node": "0.10.28"
+      , "npm": "1.1.x"
+    }
+}
