@@ -1,5 +1,5 @@
 module.exports = (app) ->
-	class app.HomeController
+  class app.HomeController
 
-		@index: (req, res) ->
-			res.json(ok: true)
+    @index: (req, res) ->
+      res.json(ok: true)
